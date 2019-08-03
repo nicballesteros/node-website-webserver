@@ -1,16 +1,22 @@
 {
   "name": "webserver",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "a webserver to host my website on",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-  "repository":{
-      "type": "git",
-      "url": "https://github.com/nicballesteros/node-website-webserver.git"
-  }
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicballesteros/node-website-webserver.git"
   },
   "author": "Nic Ballesteros",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "optionalDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
